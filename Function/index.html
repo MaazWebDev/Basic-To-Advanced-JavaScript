@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .calculator {
+            background: #fff;
+            display: inline-block;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            border: none;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        #Calculation_Result {
+            display: block;
+            margin: 20px 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Check Console Please ( Ctrl + Shift + i )</h1>
+    <!-- <input type="text" id="num" placeholder="Enter Number">
+    <button onclick="isEven()">Check</button>
+    <h2 id="answer"></h2> -->
+    <div>
+        <input type="text" id="num1" placeholder="Enter First Number">
+        <input type="text" id="num2" placeholder="Enter Second Number">
+        <br>
+        <span id="Calculation_Result"></span>
+        <div>
+            <button onclick="calculate('+')">Add</button>
+            <button onclick="calculate('-')">Subs</button>
+            <button onclick="calculate('*')">Multi</button>
+            <button onclick="calculate('/')">Divi</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
