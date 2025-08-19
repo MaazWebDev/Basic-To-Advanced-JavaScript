@@ -1,0 +1,53 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Dropdowns */
+select {
+    padding: 8px 12px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+select:hover {
+    border-color: #007BFF;
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Button Group */
+div {
+    margin-top: 15px;
+}
