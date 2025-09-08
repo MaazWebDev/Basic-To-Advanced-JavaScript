@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+     <div class="flex flex-wrap gap-4 w-full max-w-3xl justify-center mb-6 mt-10">
+    <!-- Search Input -->
+    <input 
+      type="search" 
+      id="search" 
+      placeholder="Search Product"
+      class="w-72 px-4 py-2 border border-gray-300 cursor-pointer rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-400 transition"
+    >
+
+    <!-- Category Dropdown -->
+    <select 
+      name="category" 
+      id="category_dropdown"
+      class="w-48 px-3 py-2 border cursor-pointer border-gray-300 rounded-xl shadow-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-400 transition"
+    >
+      <option value="">Select</option>
+      <option value="men's clothing">Men</option>
+      <option value="women's clothing">Women</option>
+      <option value="electronics">Electronic</option>
+      <option value="jewelery">Jewellery</option>
+    </select>
+  </div>
+    <div class="container px-5 py-24 mx-auto">
+         <div id="container" class="flex flex-wrap m-4 justify-around"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
